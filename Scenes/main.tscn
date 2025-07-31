@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://dcj8i1iuuxwol"]
+[gd_scene load_steps=2 format=3 uid="uid://dcj8i1iuuxwol"]
+
+[ext_resource type="FontFile" uid="uid://kkjkpmqub1d2" path="res://Font/PublicPixel.otf" id="1_jjgbg"]
 
 [node name="Main" type="Node2D"]
 
@@ -9,26 +11,26 @@ offset_right = 40.0
 offset_bottom = 40.0
 
 [node name="Label" type="Label" parent="Control"]
-layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
-text = "HOLA ALGUIEN ME EXPLICA EL SIGNIFICADO DE MI SUEÑO EL SUEÑO COMIENZA CON MI AMIGO JUGANDO MINECRAFT ESTABA BUSCANDO UN 
-TEMPLO MARINO DESPUES SE AHOGA
+layout_mode = 1
+offset_right = 1157.985
+offset_bottom = 643.53
+rotation = -6.2831855
+theme_override_fonts/font = ExtResource("1_jjgbg")
+theme_override_font_sizes/font_size = 27
+text = "Hello there what is your name little one ?
 
-DESPUES YO ESTABA ENTRANDO AL
- MINECRAFT CUANDO ENCONTRE UN MUNDO CON LA PORTADA DEL MAR CUANDO ENTRE SE ME CERRO EL MINECRAFT CUANDO VOLVI A ENTRAR 
-ENCONTRE UNA CASA PERO NO LE DI INPORTANCIA DESPUES YO ESTABA BUSCANDO UN BARCO UNDIDO CUANDO ENCONTRE VI EXPERIENCIA 
-Y OBJETOS CUANDO ME DI LA VUELTA ESTABA MI AMIGO SI CARA DESPUES SE CERRO EL MINECRAFT
+áéíóú ññÑÑ
 
-POSDATA EL EL FONDO CUANDO ENTRE AL JUEGO ERA DE UN MAR
+ÁÉÍÓÚ Ññññ ´asdf
 
+(ä, ë, ï, ö, ü) 
 
-Upvote
-8
+(Ä, Ë, Ï, Ö, Ü) 
 
-Downvote
+ñoño 
 
-5
-Go to comments
+ÑoÑo
 
-Share"
+() [] {} <> + - = * /"
+autowrap_mode = 3
+text_overrun_behavior = 1
