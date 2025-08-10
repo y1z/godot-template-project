@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="template"
+run/main_scene="uid://dcj8i1iuuxwol"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -26,6 +27,10 @@ gdscript/warnings/shadowed_global_identifier=2
 gdscript/warnings/untyped_declaration=1
 gdscript/warnings/missing_tool=2
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/_Godot-IDE_/plugin.cfg", "res://addons/indent_guidelines/plugin.cfg")
+
 [file_customization]
 
 folder_colors={
@@ -33,10 +38,13 @@ folder_colors={
 "res://Scenes/": "red",
 "res://Scripts/": "green",
 "res://Sprites/": "yellow",
-"res://Textures/": "purple"
+"res://Textures/": "purple",
+"res://addons/_Godot-IDE_/plugins/": "blue",
+"res://addons/_Godot-IDE_/shared_resources/": "teal"
 }
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
